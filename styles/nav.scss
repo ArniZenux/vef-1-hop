@@ -1,0 +1,33 @@
+// Sækja config
+@import './config';
+
+nav{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color:#fff;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+li{
+    display: inline-block;
+    margin-right: 4rem;
+}
+nav ul li .t_budin{
+    background-color: #fff;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav input{
+    width: 350px;
+    background-color: white;
+}

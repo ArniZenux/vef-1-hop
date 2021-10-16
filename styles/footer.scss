@@ -1,0 +1,61 @@
+// Sækja config
+@import './config';
+
+footer{
+    background-color: rgb(75, 39, 22);
+    width: 100%;
+}
+
+footer content{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+footer section {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h2{
+    font-weight: 500;
+    text-transform: uppercase; 
+    border-bottom: 2px solid $color-light-gray; 
+    color:$color-light-gray;  
+    margin-bottom: 1rem;
+}
+
+footer section ul{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer section li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    color:$color-light-gray;
+}
+
+footer section li:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+    
+footer section li:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer .company{
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid $color-light-gray;
+    width: 50vmax;
+    text-align: center;
+    font-size: 0.8rem;
+    color:$color-light-gray;
+}

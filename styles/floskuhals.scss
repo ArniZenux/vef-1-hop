@@ -1,0 +1,100 @@
+// Sækja config
+@import './config';
+
+.floskuhals {
+  position: relative;
+  width: 100%;
+  padding-top: 3rem;
+	padding-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.floskuhals section{
+  margin-bottom: 0rem;
+}
+
+.floskuhals section h2{
+  font-size: 1.5vmax; 
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.floskuhals .hals_grein{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.floskuhals .hals_grein_2{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.floskuhals section p{
+  line-height: 1.5;
+}
+
+.floskuhals .hals_mynd{
+  width: 50vmin;
+  height: 190px;
+}
+
+.floskuhals .hals_mynd_2{
+  width: 50vw;
+  height: 190px;
+}
+
+.floskuhals .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.floskuhals button{
+	background-color:rgb(92, 78, 78);
+  color:$color-lightest-gray;
+  font-size: 0.8rem;
+	margin-top: 1rem;
+}
+
+.floskuhals button a{
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .floskuhals section h2{
+    font-size: 2.5vmin; 
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+
+  .floskuhals .hals_grein{
+    text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    margin-bottom: 1rem;
+    width: 80vmin;
+    height: 190px;
+  }
+ 
+}
+
+@media (max-width: 700px) {
+  .floskuhals section h2{
+    font-size: 5vmin; 
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+
+  .floskuhals .hals_grein_2{
+    margin-top: 1rem;
+    width: 80vmin;
+    height: 190px;
+  }
+}

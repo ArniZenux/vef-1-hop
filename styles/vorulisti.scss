@@ -1,0 +1,39 @@
+// Sækja config
+@import './config';
+
+.vorulisti{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.vorulisti h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.vorulisti h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.vorulisti .content .deso{
+	display:flex;
+	margin-top: 0.5rem;
+}
+
+.vorulisti .content .deso span{
+	border-radius: 3px;
+	background-color:$color-gray;
+	display: inline-block;
+	padding: 0.5rem;
+	margin-right: 1rem;
+}
+
+.vorulisti span{
+  background-color:$color-gray;
+  display: inline-block;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}

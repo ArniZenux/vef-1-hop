@@ -1,0 +1,72 @@
+// Sækja config
+@import './config';
+
+//
+// tæknilegt móðurborð 
+//
+.varahluti {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.varahluti .content{
+	margin: 0;
+}
+
+.varahluti .content .image img{
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.varahluti .content h1{
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+.varahluti .content .deso{
+  display:flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.varahluti .content .deso span{
+	border-radius: 3px;
+	background-color:$color-gray;
+	display: inline-block;
+	padding: 0.5rem;
+	margin-right: 1rem;
+}
+
+.varahluti .content .price{
+	margin-top: 1.5rem;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.varahluti .content button{
+	margin-top: 1.5rem;
+	background-color:white;
+	margin-left: 2rem;
+	border: 1px solid $color-gray;
+	width: 90%;
+}
+
+.eiginleikar{
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.eiginleikar h1{
+	font-weight: 500;
+	margin-top: 1.5rem;
+}
+
+.eiginleikar h2{
+	font-weight: 300;
+	margin-top: 2rem;
+}
+
+

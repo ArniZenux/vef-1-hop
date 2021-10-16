@@ -1,0 +1,101 @@
+// Sækja config
+@import './config';
+
+.pontun {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pontun .head h1{
+  font-size: 4vh;
+  font-weight: 400;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pontun h2{
+  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pontun .kaup_afhending{
+  margin: 0;
+}
+
+.pontun .kaup_afhending label{
+  margin-left: 1rem;
+}
+
+.pontun .kaup_afhending input{
+  height: 1.5rem;
+  width: 90%;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+//hægri megin - 
+.verdlist {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.verdlist ul {
+  padding-left: 0px;
+}
+
+.verdlist ul li {
+  list-style: none;
+  border-bottom: 1px solid $color-gray;
+}
+
+.verdlist ul li:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.verdlist section .image img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.verdlist section .vorulysing{
+  padding-top: 3rem;
+}
+
+.verdlist section .verd{
+  padding-left: 0rem;
+  padding-top: 3.5rem;
+}
+
+.verdlist section .samtals{
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.verdlist section .tomt{
+  visibility: hidden;
+}
+
+.verdlist section .allt_samtal{
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.pontun button{
+  background-color:rgb(92, 78, 78);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color:$color-lightest-gray;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
