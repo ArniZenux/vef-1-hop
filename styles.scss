@@ -1,0 +1,18 @@
+// sækja allt úr styles/
+
+@import 'styles/config';            
+
+@import 'styles/global.scss';       //global 
+@import 'styles/grid.scss';         //grid 
+
+@import 'styles/nav.scss';          //global - nave
+
+@import 'styles/header.scss';       //index
+@import 'styles/floskuhals.scss';   //index
+@import 'styles/body.scss';         //index og vorusida. 
+
+@import 'styles/footer.scss';       //global - footer  
+
+@import 'styles/vorulisti.scss';    //vörulisit
+@import 'styles/pontun.scss';       //pöntun
+@import 'styles/vorusida.scss';     //vörusíða
