@@ -21,18 +21,21 @@
 	-footer.scss
 
 3. vorulisti.html
-	-nav.html
-	-vorulisti.scss
-	-body.scss 
-	-footer.scss
+ -nav.html
+ -vorulisti.scss
+ -body.scss 
+ -footer.scss
 
 4. pontuna.html
-	-nav.html
-	-pontun.scss
-	-footer.scss
+ -nav.html
+ -pontun.scss
+ -footer.scss
 
 ## Nemandi 
 
  - Árni Ingi Jóhanneson 
+ - arnijoha@hi.is
+ - github.com/ArniZenux
+ 
  - Sjálfstætt í verkefni 
  - Fékk leyfi frá kennara 
