@@ -23,8 +23,6 @@ button {
   border: 0px solid $color-black;
   border-radius: 5px;
   padding: 0.5rem;
-  transition: color $transition, background-color $transition;
-  word-break: initial;
   text-transform: uppercase;
 }
 
