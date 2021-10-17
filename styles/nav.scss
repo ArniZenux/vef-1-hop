@@ -2,80 +2,110 @@
 @import './config';
 
 nav .bigger{
-    visibility:visible;
-    background-color: red;
-    width: 100%;
-    overflow: none;
+  visibility:visible;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 nav .smaller{
-    visibility: hidden;
+  visibility: hidden;
 }
 
 nav .bigger ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 5px;
 }
 
 nav .bigger li {
-    display: inline-block;
-    margin-right: 4rem;
+  margin-right: 4rem;
 }
+
+nav .bigger .image {
+  display: flex;
+}
+
 nav .bigger ul li .t_budin{
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 nav .bigger input{
-    width: 350px;
+  width: 350px;
 }
+
+nav .bigger a{
+  display: flex;
+  width: 100%;
+  margin-left:1%;
+  text-decoration: none;
+  color: black;
+}
+
+nav .bigger .buy{
+  margin-right: 5px;
+} 
 
 @media (max-width: 1000px) {
     nav .bigger{
-        background-color: red;
-        visibility: hidden;
+    visibility: hidden;
     };
 
-    nav .smaller{
-        background-color: yellow;
-        visibility: visible;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
+  nav .smaller{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 
-    nav .smaller .content{
-      display: inline;
-
-    	margin: 0;
-    	padding: 0;
+  nav .smaller .content{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;    	
 		}
+  
+  nav .smaller .content .image {
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  nav .smaller .t_budin{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 
-		nav .smaller ul li .t_budin{
-		 	font-size: 1.5rem;
-		  font-weight: 700;
-	 	}
+  nav .smaller .content details summary{
+    margin-top: 5px;
+    outline:none;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 10px double black;
+    border-top: 3.5px solid black;
+    height: 4px;
+    width: 25px;
+    box-sizing:initial;
+  }
 
-		nav .smaller .hamburger_image img{
-      float: right;
-      width: 25px;
-      height: 25px;
-    }
+  nav .smaller .content ul {
+    list-style: none;
+    margin-top: 30px;
+    width: 150px;
+    float: left;
+  }
 
-		nav .smaller ul{
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav .smaller li {
-			display: inline-block;
-			margin-right: 4rem;
-		}
-
-    nav .smaller input{
-        width: 350px;
-    }
+  nav .smaller .content a{
+    display: block;
+    line-height:20px;
+    margin-left:1%;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav .smaller input{
+    width: 350px;
+  }
 }
