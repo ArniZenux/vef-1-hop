@@ -1,6 +1,7 @@
 ## Hópverkefni 1 
 
 ```bash
+- git clone https://github.com/ArniZenux/vef-1-hop.git
 - npm run lint -s
 - npm run dev 
 ```
